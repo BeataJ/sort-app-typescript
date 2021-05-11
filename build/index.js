@@ -1,6 +1,8 @@
 "use strict";
-console.log(123);
-var logSomething = function () {
-    console.log('something');
-};
-logSomething();
+var Solter = /** @class */ (function () {
+    function Solter(collection) {
+        this.collection = collection;
+    }
+    return Solter;
+}());
+var solter = new Solter([10, 3, -5, 0]);

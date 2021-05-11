@@ -1,7 +1,9 @@
-console.log(123)
+class Solter {
+    collection: number[];
 
-const logSomething = () => {
-    console.log('something')
+    constructor(collection: number[]) {
+        this.collection = collection
+    }
 }
 
-logSomething()
+const solter = new Solter([10,3,-5,0]);
