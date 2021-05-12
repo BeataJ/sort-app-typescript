@@ -1,6 +1,6 @@
 class Solter {
 
-    constructor(public collection: number[]) {
+    constructor(public collection: number[] | string) {
     }
 
     sort(): void {
