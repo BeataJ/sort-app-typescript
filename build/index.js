@@ -14,6 +14,8 @@ var Solter = /** @class */ (function () {
                         this.collection[j + 1] = leftHand;
                     }
                 }
+                if (typeof this.collection === 'string') {
+                }
             }
         }
     };

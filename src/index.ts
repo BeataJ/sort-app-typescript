@@ -17,6 +17,10 @@ class Solter {
                     }
                }
 
+               if(typeof this.collection === 'string') {
+                   
+               }
+
             }
         }
 
