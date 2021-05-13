@@ -12,7 +12,8 @@ const linkedList = new LinkedList();
 linkedList.add(78);
 linkedList.add(-10);
 linkedList.add(-4);
-linkedList.add(12)
+linkedList.add(12);
+linkedList.sort()
 // const solter = new Sorter(numbersCollection);
 // const solter1 = new Sorter(charactersCollection)
 // const solter2 = new Sorter(linkedList);
