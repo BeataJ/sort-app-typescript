@@ -5,6 +5,7 @@ import { LinkedList } from './LinkedList';
 
 
 const numbersCollection = new NumbersCollection([10,3,-5,0])
+numbersCollection.sort();
 const charactersCollection = new CharactersCollection('beata');
 const linkedList = new LinkedList();
 linkedList.add(78);
